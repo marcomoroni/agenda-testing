@@ -2,7 +2,7 @@
   "name": "Agenda",
   "short_name": "Agenda",
   "start_url": ".",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "#fff",
   "description": "A readable Hacker News app.",
   "icons": []

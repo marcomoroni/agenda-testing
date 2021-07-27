@@ -78,7 +78,7 @@ table {
     height: 100vh;
 	overflow:hidden;
 	border-radius: var(--fake-screen-radius);
-    background-color: pink;
+    background-color: #ffc0cb;
 }
 
 
