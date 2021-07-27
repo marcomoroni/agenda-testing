@@ -57,7 +57,7 @@ table {
 }
 
 :root {
-	--fake-screen-radius: 20px;
+	--fake-screen-radius: 0px;
 }
 
 .app-container {
@@ -78,9 +78,15 @@ table {
     height: 100vh;
 	overflow:hidden;
 	border-radius: var(--fake-screen-radius);
-    background-color: #ffc0cb;
+    background-color: white;
 }
 
 
 
-/* UI *?
+/* UI */
+
+.scaffold {
+	width: 100vw;
+    height: 100vh;
+	overflow:hidden;
+}

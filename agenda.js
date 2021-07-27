@@ -1,4 +1,4 @@
-"use strict"
+`use strict`
 
 window.addEventListener('load', (event) => {
     // Init app.
@@ -12,16 +12,26 @@ window.addEventListener('load', (event) => {
     var appRootEl = document.getElementsByClassName(`fake-rounded-corners`)[0]
 
     // ...
+    scaffold(appRootEl, navBar(),,)
 })
 
 
 // UI.
 // TODO: Add to a UI library file.
 
-function column(children) {
-
+class Scaffold {
+    constructor(parentEl, navBar, contentEl, optBottomBar) {
+        let scaffoldEl = document.createElement(`DIV`)
+        scaffoldEl.classList.add(`scaffold`)
+        parentEl.appendChild(scaffoldEl)
+    
+        return this
+    }
 }
 
-function scaffoldOrModal(child) {
-
+class NavBar {
+    constructor(leftEls, titleEl, rightEls, expandable) {
+        this.expandable = expandable
+        return this
+    }
 }
